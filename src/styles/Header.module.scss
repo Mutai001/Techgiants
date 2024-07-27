@@ -1,0 +1,25 @@
+/* styles/Header.module.scss */
+
+.header {
+    background-color: #007bff;
+    .toolbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .iconButton {
+        color: white;
+    }
+    .title {
+        flex-grow: 1;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .iconGroup {
+        display: flex;
+        align-items: center;
+        .icon {
+            color: white;
+            margin-left: 0.5rem;
+        }
+    }
+}
