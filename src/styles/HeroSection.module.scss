@@ -1,0 +1,34 @@
+.landingPage {
+    .carouselSlide {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4B5A20; // Use the color combination
+    }
+    .carouselArrow {
+        background-color: #DBA40E; // Arrow background color
+        border: none;
+        color: #fff;
+        font-size: 2rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        z-index: 1;
+        transition: background-color 0.3s;
+        &:hover {
+            background-color: #7E6E13; // Arrow hover color
+        }
+    }
+    .carouselArrowPrev {
+        position: absolute;
+        left: 10px;
+    }
+    .carouselArrowNext {
+        position: absolute;
+        right: 10px;
+    }
+    .carouselSlide img {
+        border: 5px solid #787D12; // Border color around images
+    }
+}

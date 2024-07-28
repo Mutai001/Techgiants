@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '@mui/material';
-// import HeroSection from './HeroSection';
+import HeroSection from './HeroSection';
 import MainSection from './MainSection';
 import FeaturesSection from './FeaturesSection';
 import TestimonialsSection from './TestimonialsSection';
@@ -10,7 +10,7 @@ import styles from '../styles/LandingPage.module.scss';
 const LandingPage: React.FC = () => {
   return (
     <div className={styles.landingPage}>
-      {/* <HeroSection /> */}
+      <HeroSection />
       <Container sx={{ my: 4 }}>
         <MainSection />
         <FeaturesSection />
